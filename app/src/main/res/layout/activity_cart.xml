@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price = "
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+
+
+        />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:text="Congrats, your order placed sucessfully, shipment will be done asap"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rlll"
+        android:layout_above="@+id/next_process_button"
+        android:layout_height="match_parent"/>
+
+
+    <Button
+        android:id="@+id/next_process_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>
