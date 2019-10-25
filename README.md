@@ -5,6 +5,8 @@ Android Ecommerce App where user can order stuffs, admin can handle orders/produ
 
 ## Demo/Apk link
 * [Apk](https://github.com/mmhasanovee/Apomee_Ecommerce_App/raw/master/app-debug.apk)
+* [Brochure](https://github.com/mmhasanovee/Apomee_Ecommerce_App/blob/master/Brochure.pdf) 
+* [Presentation](https://github.com/mmhasanovee/Apomee_Ecommerce_App/blob/master/Presentation.pptx) 
 
 ## Requirements
 *Android Studio
